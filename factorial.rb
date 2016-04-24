@@ -1,9 +1,4 @@
-def power(base, exponent)
-    start = base
-  exponent.times do
-    start=start*base
-  end
-start
+def factorial(n)
+  (1..n).inject(:*)
 end
 
-power(2, 3)
